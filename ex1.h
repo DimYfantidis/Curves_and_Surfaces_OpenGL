@@ -91,6 +91,12 @@ void displayFirst(void)
 		}
 		glEnd();
 	}
+	else
+	{
+		char buffer[70];
+		snprintf(buffer, 200, "Enter 7 Points by clicking anywhere on the screen (%d left)", 7 - numPointsAddedByUserEx1);
+		renderString2f(-1.0f, 0.95f, GLUT_BITMAP_9_BY_15, buffer, 1.0f, 1.0f, 1.0f);
+	}
 	
 	// Draw control points in WHITE.
 	glColor3f(1.0f, 1.0f, 1.0f);
