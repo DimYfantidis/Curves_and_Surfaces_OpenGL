@@ -1,2 +1,4 @@
-# Curves_and_Surfaces_OpenGL
-Curves &amp; Surfaces (OpenGL)
+# Curves &amp; Surfaces (OpenGL)
+*  Interpolation Curves/Surfaces
+*  Bezier Curves/Surfaces
+* C implementation
