@@ -33,12 +33,15 @@ void main_menu(int op_id)
 	switch (op_id)
 	{
 	case 1:
+        glDisable(GL_DEPTH_TEST);
 		initFirst();
 		break;
 	case 2:
+        glDisable(GL_DEPTH_TEST);
 		initSecond();
 		break;
 	case 3:
+        glDisable(GL_DEPTH_TEST);
 		initThird();
 		break;
 	case 4:
